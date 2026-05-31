@@ -1,4 +1,4 @@
-# 🖥️ Servers: The Machines That Never Sleep (Deep Dive)
+#  Servers: The Machines That Never Sleep (Deep Dive)
 
 In the digital world, a server is much more than just a computer. It is a **System of Service**. While your laptop is designed for a single user, a server is engineered to serve thousands of "clients" simultaneously without ever taking a break.
 
@@ -8,12 +8,12 @@ In the digital world, a server is much more than just a computer. It is a **Syst
 
 To truly understand how the web works, you have to separate the **Physical** from the **Logical**.
 
-#### 🏗️ Hardware Level (The Powerhouse)
+####  Hardware Level (The Powerhouse)
 Imagine a computer with no screen, no keyboard, and no fancy chassis. It lives in a climate-controlled data center.
 * **The "Major":** It focuses on **Reliability**. It uses ECC RAM (which self-corrects errors) and Redundant Power Supplies. If one part fails, the server keeps running.
 * **The Logic:** It has massive CPU cores and high bandwidth to handle the "traffic spikes" when everyone visits your site at once.
 
-#### ⚙️ Software Level (The Gatekeeper)
+####  Software Level (The Gatekeeper)
 This is a program (like **Nginx, Apache, or Node.js**) that runs on the hardware. 
 * **The Port System:** The server software "listens" to specific doors called **Ports**. 
     * **Port 80/443:** Reserved for Web traffic (HTTP/HTTPS).
