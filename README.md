@@ -1,4 +1,4 @@
-#  Web Systems Architecture & Development Lifecycle
+# 🌐 Web Systems Architecture & Development Lifecycle
 ### *A Deep Dive into How the Internet and Web Applications Work*
 
 <p align="center">
@@ -9,51 +9,51 @@
 
 ---
 
-##  Overview
-This project is an in-depth analysis of web technologies, infrastructure, and the full development cycle. It explores not just how to code, but how systems interact at a deep level to deliver data across the globe.
+## 🎯 Overview
+This project is an in-depth analysis of web technologies, infrastructure, and the full development cycle. [cite_start]It explores not just how to code, but how systems interact at a deep level to deliver data across the globe[cite: 2, 145].
 
 ---
 
-##  Roadmap & Documentation
-The project is divided into four major technical modules. Each module contains detailed explanations and references.
+## 🧭 Roadmap & Documentation
+The project is divided into four major technical modules. Each module contains detailed explanations and references based on core system principles.
 
-###  1. [Languages & Frameworks](./docs/languages_and_frameworks.md)
-* [cite_start]**Why different languages?** Understanding specialties like performance (C++), readability (Python), and native browser support (JS)[cite: 1, 2, 12].
-* [cite_start]**The Framework System:** How abstraction turns repetitive code into powerful development tools like Django or React[cite: 18, 30, 31].
+### 📁 1. [Languages & Frameworks](./docs/languages_and_frameworks.md)
+* [cite_start]**Why different languages?** Understanding specialties like performance (**C/C++**), readability (**Python**), and native browser support (**JS**)[cite: 4, 8, 12].
+* [cite_start]**The Framework System:** How abstraction turns repetitive tasks into powerful development tools like **Django** or **React**[cite: 18, 31, 33].
 
-###  2. [Infrastructure & Networking](./docs/infrastructure.md)
-* [cite_start]**Client-Server Model:** The "Service Provider" logic and hardware vs. software perspectives[cite: 36, 45, 49].
-* [cite_start]**DNS Hierarchy:** The journey from a Recursive Resolver to the Authoritative DNS[cite: 106, 134].
-* [cite_start]**Networking:** Understanding LAN, WAN, and the role of the ISP[cite: 39, 41, 136].
+### 📁 2. [Infrastructure & Networking](./docs/infrastructure.md)
+* [cite_start]**Client-Server Model:** The "Service Provider" logic where the server "listens" for requests[cite: 36, 51].
+* [cite_start]**DNS Hierarchy:** The journey from a Local DNS Server to **Root**, **TLD**, and **Authoritative** servers[cite: 109, 137, 140, 141].
+* [cite_start]**Networking:** Understanding the role of **LAN** and **WAN** in connecting clients to the server[cite: 39, 41, 44].
 
-###  3. [Development & Deployment](./docs/deployment.md)
-* [cite_start]**Localhost (127.0.0.1):** Building in a safe sandbox without internet requirements[cite: 69, 72, 79].
-* [cite_start]**Deployment Methods:** From traditional FTP to modern CI/CD (GitHub Actions) and Cloud Infrastructure (AWS/VPS)[cite: 94, 96, 104].
+### 📁 3. [Development & Deployment](./docs/deployment.md)
+* [cite_start]**Localhost (127.0.0.1):** Building in a safe sandbox (`localhost`) to test code without affecting the live site[cite: 69, 79, 80].
+* [cite_start]**Deployment Methods:** Moving from "My Computer" to "The World" using **FTP**, **CI/CD** (GitHub Actions), or **Cloud Infrastructure** (AWS/Google Cloud)[cite: 88, 94, 97, 104].
 
-###  4. [Service Interaction](./docs/interactions.md)
-* [cite_start]**APIs & REST:** How services talk using standard HTTP verbs (GET, POST, PUT, DELETE)[cite: 147, 150].
-* [cite_start]**Real-time & Complex Systems:** WebSockets for chat and Message Brokers (Kafka/RabbitMQ) for microservices[cite: 156, 160].
+### 📁 4. [Service Interaction](./docs/interactions.md)
+* [cite_start]**APIs & REST:** How services talk using standard HTTP verbs: `GET`, `POST`, `PUT`, `DELETE`[cite: 147, 150, 151, 154].
+* [cite_start]**Real-time & Complex Systems:** **WebSockets** for two-way communication and **Message Brokers** (Kafka/RabbitMQ) for microservices[cite: 156, 160].
 
 ---
 
 ## 📊 System Architecture Diagram
-*Below is the high-level system logic illustrating the request-response journey and deployment flow.*
+*Below is the high-level system logic illustrating the request-response journey and DNS resolution flow.*
 
 
 
 ---
 
-##  Reference Guide (Source: document ruslan.pdf)
-To ensure the depth of this research, the following core principles were followed:
-* [cite_start]**Specialization:** Using the right tool for the right job (e.g., C for hardware, Go for concurrency)[cite: 4, 13].
-* [cite_start]**Reliability:** The use of TCP for stable enterprise connections[cite: 16].
-* [cite_start]**Abstraction:** Frameworks as "pre-fabricated house kits" to boost productivity[cite: 18].
-* [cite_start]**Modern Interaction:** The flow from Frontend (POST request) -> Backend (Query) -> Database (Result)[cite: 165, 166, 167].
+## 📚 Key System Principles
+To ensure the depth of this research, the following core principles from the system documentation were analyzed:
+* [cite_start]**Specialization:** Using the right tool for the right job (e.g., **Go** for concurrency, **Java** for stability)[cite: 13, 16].
+* [cite_start]**Abstraction:** Frameworks provide the structure, allowing developers to focus on customization[cite: 18].
+* [cite_start]**Environment Distinction:** Clear separation between **Local Development** and **Production** (Live) environments[cite: 67, 90].
+* [cite_start]**Interaction Flow:** Frontend (Request) -> Backend (Logic/Query) -> Database (Data) -> Backend (Response)[cite: 165, 166, 167, 168].
 
 ---
 
-##  Author
-**Tahmina Aliyeva**
+## 👤 Author
+**[Sənin Adın]**
 *Holberton School - Peer Learning Day (PLD)*
 
 ---
