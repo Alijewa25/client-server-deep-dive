@@ -1,5 +1,5 @@
-# 🌐 Web Systems Architecture & Development Lifecycle
-### *A Deep Dive into How the Internet and Web Applications Work*
+#  Web Systems Architecture & Development Lifecycle
+### *A Deep Technical Analysis of Internet Infrastructure and Application Delivery*
 
 <p align="center">
   <img src="https://img.shields.io/badge/Holberton-PLD-red?style=for-the-badge" alt="Holberton PLD">
@@ -9,54 +9,46 @@
 
 ---
 
-## 🎯 Overview
-This project is an in-depth analysis of web technologies, infrastructure, and the full development cycle. [cite_start]It explores not just how to code, but how systems interact at a deep level to deliver data across the globe[cite: 2, 145].
+##  Project Overview
+This project provides a comprehensive exploration of the underlying systems that power the modern web. It analyzes the transition from high-level programming abstractions to low-level network protocols and infrastructure management. The goal is to move beyond coding and understand the complex interactions between clients, servers, and networks.
 
 ---
 
-## 🧭 Roadmap & Documentation
-The project is divided into four major technical modules. Each module contains detailed explanations and references based on core system principles.
+##  Technical Modules
 
-### 📁 1. [Languages & Frameworks](./docs/languages_and_frameworks.md)
-* [cite_start]**Why different languages?** Understanding specialties like performance (**C/C++**), readability (**Python**), and native browser support (**JS**)[cite: 4, 8, 12].
-* [cite_start]**The Framework System:** How abstraction turns repetitive tasks into powerful development tools like **Django** or **React**[cite: 18, 31, 33].
+###  1. Languages & Frameworks
+* **The Specialty of Tools**: Programming languages are specialized tools; for instance, C/C++ is used for hardware-level performance, while Python is optimized for human-friendly productivity.
+* **Native Interactivity**: JavaScript is the only language understood natively by all web browsers, making it essential for building interactive interfaces.
+* **The Framework System**: Frameworks are standardized structures built on top of languages to handle repetitive tasks—such as authentication—through abstraction.
 
-### 📁 2. [Infrastructure & Networking](./docs/infrastructure.md)
-* [cite_start]**Client-Server Model:** The "Service Provider" logic where the server "listens" for requests[cite: 36, 51].
-* [cite_start]**DNS Hierarchy:** The journey from a Local DNS Server to **Root**, **TLD**, and **Authoritative** servers[cite: 109, 137, 140, 141].
-* [cite_start]**Networking:** Understanding the role of **LAN** and **WAN** in connecting clients to the server[cite: 39, 41, 44].
+###  2. Infrastructure & Networking
+* **Client-Server Model**: A distributed architecture where the Server acts as a "Service Provider," sitting in a "listen" mode to fulfill requests from various Clients.
+* **DNS Hierarchy**: Known as the "Phonebook of the Internet," DNS translates human-friendly URLs into machine-readable IP addresses through a hierarchical query involving Root, TLD, and Authoritative servers.
+* **Network Connectivity**: Devices connect to these systems via Local Area Networks (LAN) and Wide Area Networks (WAN).
 
-### 📁 3. [Development & Deployment](./docs/deployment.md)
-* [cite_start]**Localhost (127.0.0.1):** Building in a safe sandbox (`localhost`) to test code without affecting the live site[cite: 69, 79, 80].
-* [cite_start]**Deployment Methods:** Moving from "My Computer" to "The World" using **FTP**, **CI/CD** (GitHub Actions), or **Cloud Infrastructure** (AWS/Google Cloud)[cite: 88, 94, 97, 104].
+###  3. Development & Deployment
+* **Localhost (127.0.0.1)**: A private sandbox environment used to write and test code safely without an internet connection, ensuring that mistakes do not affect the live "Production" site.
+* **Deployment Methods**: The process of pushing code to a production server varies from manual FTP transfers to modern automated CI/CD pipelines (GitHub Actions) and Cloud Infrastructure (AWS/VPS).
 
-### 📁 4. [Service Interaction](./docs/interactions.md)
-* [cite_start]**APIs & REST:** How services talk using standard HTTP verbs: `GET`, `POST`, `PUT`, `DELETE`[cite: 147, 150, 151, 154].
-* [cite_start]**Real-time & Complex Systems:** **WebSockets** for two-way communication and **Message Brokers** (Kafka/RabbitMQ) for microservices[cite: 156, 160].
-
----
-
-## 📊 System Architecture Diagram
-*Below is the high-level system logic illustrating the request-response journey and DNS resolution flow.*
-
-
+###  4. Service Interaction
+* **APIs & REST**: Standardized "menus" of functions allowing services to communicate using standard HTTP verbs such as GET, POST, PUT, and DELETE.
+* **Real-time Communication**: WebSockets maintain a persistent "pipe" for continuous, two-way data flow, essential for real-time applications like chat.
+* **Message Brokers**: Systems like Kafka or RabbitMQ decouple services in complex architectures to prevent system-wide crashes by allowing asynchronous communication.
 
 ---
 
-## 📚 Key System Principles
-To ensure the depth of this research, the following core principles from the system documentation were analyzed:
-* [cite_start]**Specialization:** Using the right tool for the right job (e.g., **Go** for concurrency, **Java** for stability)[cite: 13, 16].
-* [cite_start]**Abstraction:** Frameworks provide the structure, allowing developers to focus on customization[cite: 18].
-* [cite_start]**Environment Distinction:** Clear separation between **Local Development** and **Production** (Live) environments[cite: 67, 90].
-* [cite_start]**Interaction Flow:** Frontend (Request) -> Backend (Logic/Query) -> Database (Data) -> Backend (Response)[cite: 165, 166, 167, 168].
+##  System Interaction Flow
+1. **The Request**: The Client initiates a request (e.g., a `POST` request with login credentials).
+2. **The Logic**: The Backend server processes the logic and queries the Database Server for validation.
+3. **The Result**: The Database returns the result, and the Backend sends an HTTP/JSON response (e.g., a Success Token) back to the Client.
 
 ---
 
-## 👤 Author
-**[Sənin Adın]**
+##  Author
+**Tahmina Aliyeva**
 *Holberton School - Peer Learning Day (PLD)*
 
 ---
 <p align="center">
-  <i>"Understand the system, and you can build anything."</i>
+  <i>"Programming languages are tools... you can't build all systems with only one language."</i>
 </p>
