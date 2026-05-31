@@ -1,4 +1,4 @@
-#  Web Systems Architecture & Development Lifecycle
+# 🌐 Web Systems Architecture & Development Lifecycle
 ### *A Deep Technical Analysis of Internet Infrastructure and Application Delivery*
 
 <p align="center">
@@ -9,46 +9,52 @@
 
 ---
 
-##  Project Overview
-This project provides a comprehensive exploration of the underlying systems that power the modern web. It analyzes the transition from high-level programming abstractions to low-level network protocols and infrastructure management. The goal is to move beyond coding and understand the complex interactions between clients, servers, and networks.
+## 📖 Project Overview
+This project explores the behind-the-scenes logic of modern web systems. We aren't just talking about writing code; we are discussing how software operates as a unified system with hardware, network protocols, and infrastructure.The goal is to deeply understand the entire chain, from high-level programming languages to complex network requests.
 
 ---
 
-##  Technical Modules
+##  Knowledge Map (Navigation)
 
-###  1. Languages & Frameworks
-* **The Specialty of Tools**: Programming languages are specialized tools; for instance, C/C++ is used for hardware-level performance, while Python is optimized for human-friendly productivity.
-* **Native Interactivity**: JavaScript is the only language understood natively by all web browsers, making it essential for building interactive interfaces.
-* **The Framework System**: Frameworks are standardized structures built on top of languages to handle repetitive tasks—such as authentication—through abstraction.
+You can use the links below to dive deep into each section:
 
-###  2. Infrastructure & Networking
-* **Client-Server Model**: A distributed architecture where the Server acts as a "Service Provider," sitting in a "listen" mode to fulfill requests from various Clients.
-* **DNS Hierarchy**: Known as the "Phonebook of the Internet," DNS translates human-friendly URLs into machine-readable IP addresses through a hierarchical query involving Root, TLD, and Authoritative servers.
-* **Network Connectivity**: Devices connect to these systems via Local Area Networks (LAN) and Wide Area Networks (WAN).
-
-###  3. Development & Deployment
-* **Localhost (127.0.0.1)**: A private sandbox environment used to write and test code safely without an internet connection, ensuring that mistakes do not affect the live "Production" site.
-* **Deployment Methods**: The process of pushing code to a production server varies from manual FTP transfers to modern automated CI/CD pipelines (GitHub Actions) and Cloud Infrastructure (AWS/VPS).
-
-###  4. Service Interaction
-* **APIs & REST**: Standardized "menus" of functions allowing services to communicate using standard HTTP verbs such as GET, POST, PUT, and DELETE.
-* **Real-time Communication**: WebSockets maintain a persistent "pipe" for continuous, two-way data flow, essential for real-time applications like chat.
-* **Message Brokers**: Systems like Kafka or RabbitMQ decouple services in complex architectures to prevent system-wide crashes by allowing asynchronous communication.
+1.  [**Languages & Frameworks**](./languages.md) – Why is one language not enough, and how are frameworks born?
+2.  [**Servers & Infrastructure**](./servers.md) – "Service Providers," ports, and hardware logic.
+3.  [**Local Development**](./local_development.md) – The safe sandbox: `localhost` and the port system.
+4.  [**Deployment Strategies**](./deployment.md) – The gateway to the world: FTP, CI/CD, and Cloud.
+5.  [**DNS Hierarchy**](./dns.md) – The digital phonebook of the internet and query graphs.
+6.  [**Service Interaction**](./service_interaction.md) – APIs, REST, WebSockets, and Message Brokers.
 
 ---
 
-##  System Interaction Flow
-1. **The Request**: The Client initiates a request (e.g., a `POST` request with login credentials).
-2. **The Logic**: The Backend server processes the logic and queries the Database Server for validation.
-3. **The Result**: The Database returns the result, and the Backend sends an HTTP/JSON response (e.g., a Success Token) back to the Client.
+##  Technical Module Summaries
+
+###  1. Specialization of Tools
+Programming languages are tools. **C/C++** is built for hardware-level performance, while **Python** is created for fast and readable solutions. **JavaScript** is the only "native" language understood by web browsers.
+
+###  2. Client-Server Model
+A server is not just a computer; it is software that listens to specific ports. When a request arrives, the system decides: should it send a file, execute code, or deny access? 
+###  3. DNS and IP System
+DNS translates human-readable names (URLs) into machine-readable numbers (IP addresses).This is a hierarchical process involving Root, TLD, and Authoritative servers.
+
+###  4. Automated Deployment
+In the modern world, we no longer upload files to a server manually. Thanks to **CI/CD** (e.g., GitHub Actions), the system automatically tests and sends our code to the live site (Production) the moment we "push" it.
 
 ---
 
-##  Author
+## 🔄 System Interaction (Workflow)
+Every web operation is a cycle:
+1.  **Request**: The Client (user) requests information (e.g., a `POST` login request).
+2.  **Logic**: The Backend server processes the data and, if necessary, queries the Database.
+3.  **Result**: The Database returns the result, and the Backend packages it to deliver as a JSON response to the user.
+
+---
+
+## ✍️ Author
 **Tahmina Aliyeva**
 *Holberton School - Peer Learning Day (PLD)*
 
 ---
 <p align="center">
-  <i>"Programming languages are tools... you can't build all systems with only one language."</i>
+  <i>"Programming languages are tools... you can't build all systems with only one language." </i>
 </p>
